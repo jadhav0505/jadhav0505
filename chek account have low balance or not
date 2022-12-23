@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int balance;
+  clrscr();
+  printf("\n Enter the balance:");
+  scanf("%d",&balance);
+  if(balance<500)
+  {
+  printf("\n Your account have low balance");
+  }
+  else
+  {
+  printf("\n Account have balance");
+  }
+getch();
+}
